@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dsteem": "^0.11.3",
+    "steem": "^0.7.11",
+    "twilio": "^4.10.0"
+  }
+}
