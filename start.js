@@ -2,13 +2,12 @@
 //  const Discord = require('discord.js');
 const steem = require('dsteem');
 const ACCOUNT_NAME = 'upmewhale';
-  const DISCORD_TOKEN = 'NzI5NDE1MDk3ODc3MDA0MzAy.GMRpvR.rJKZJotR4Am7sPqmdBoODDbmYGKpmhx-N9DY4M';
+  const DISCORD_TOKEN = process.env.key;
+  console.log(DISCORD_TOKEN);
  const DISCORD_USER_ID = '693027803947597824';
 
  let max=99;
 
-
-// const { Client, GatewayIntentBits } = require('discord.js');
 
 const { Client, Events, GatewayIntentBits } = require('discord.js');
 
